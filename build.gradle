@@ -29,6 +29,9 @@ repositories {
     mavenCentral()
 }
 
+task stage {
+  dependsOn installDist
+}
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-mustache')
