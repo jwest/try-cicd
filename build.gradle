@@ -22,6 +22,7 @@ jar {
     version = '0.0.1-SNAPSHOT'
 }
 
+applicationName = "try-cicd"
 mainClassName = "pl.jwest.trytry.CicdApplication"
 
 sourceCompatibility = 1.8
@@ -37,7 +38,6 @@ task stage {
 
 distributions {
     main {
-        name = 'try-cicd'
         baseName = 'cicd'
     }
 }
