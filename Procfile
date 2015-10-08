@@ -1,1 +1,1 @@
-web: ls -la ./build/
+web: ls -la ./build/install/
