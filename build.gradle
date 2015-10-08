@@ -35,6 +35,12 @@ task stage {
   dependsOn installDist
 }
 
+distributions {
+    main {
+        baseName = 'cicd'
+    }
+}
+
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-mustache')
     compile('org.springframework.boot:spring-boot-starter-actuator')
