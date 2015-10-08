@@ -37,6 +37,7 @@ task stage {
 
 distributions {
     main {
+        name = 'try-cicd'
         baseName = 'cicd'
     }
 }
