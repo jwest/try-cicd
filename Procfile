@@ -1,1 +1,1 @@
-web: ./build/install/try-cicd/bin/try-cicd --server.port=$PORT
+web: sh ./build/install/try-cicd/bin/try-cicd --server.port=$PORT
